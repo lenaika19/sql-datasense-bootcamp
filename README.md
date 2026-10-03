@@ -9,8 +9,8 @@ The bootcamp is organized into **6 modules**, each containing its own practice p
 | Module | Topic Focus | Status |
 |--------|-------------|--------|
 | Module 1 | `SELECT`, filtering (`WHERE`), sorting (`ORDER BY`), `LIMIT`, `DISTINCT` (Sections A–D) | Complete |
-| Module 2 | *TBD* | Not started |
-| Module 3 | Aggregation (`COUNT`, `GROUP BY`, etc.) | Not started |
+| Module 2 | Aliases, computed columns, `IN`/`NOT IN`, `LIKE` wildcards, date functions (Sections A–C) | Complete |
+| Module 3 | Aggregation (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `GROUP BY`) | In progress |
 | Module 4 | *TBD* | Not started |
 | Module 5 | *TBD* | Not started |
 | Module 6 | *TBD* | Not started |
@@ -19,6 +19,8 @@ The bootcamp is organized into **6 modules**, each containing its own practice p
 | File | Description |
 |------|-------------|
 | `Module1PracticeProblemSet.sql` | Module 1 practice problems — basic `SELECT` statements, filtering with `WHERE`, sorting, `LIMIT`, and `DISTINCT` values, run against the Sakila sample database. |
+| `Module2PracticeProblemSet.sql` | Module 2 practice problems — column aliases, computed columns, `IN`/`NOT IN`, `LIKE` wildcard patterns, and date functions (`DATE`, `DATEDIFF`, `DATE_FORMAT`, `DAYOFWEEK`), run against the Sakila sample database. |
+| `Module3PracticeProblemSet.sql` | Module 3 practice problems (in progress) — aggregate functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`) and rounding, run against the Sakila sample database. |
 
 Each module's `.sql` file follows the same format:
 - Organized into **lettered sections** (e.g. Module 1 has Sections A–D)
@@ -26,7 +28,7 @@ Each module's `.sql` file follows the same format:
 
 ## Tools & Skills
 - **Database:** MySQL (Sakila sample database)
-- **Skills practiced:** basic `SELECT` queries, filtering (`WHERE`, `LIKE`, `BETWEEN`, `AND`/`OR`), sorting (`ORDER BY`), limiting results (`LIMIT`), and retrieving unique values (`DISTINCT`)
+- **Skills practiced:** basic `SELECT` queries, filtering (`WHERE`, `LIKE`, `BETWEEN`, `IN`/`NOT IN`, `AND`/`OR`), sorting (`ORDER BY`), limiting results (`LIMIT`), unique values (`DISTINCT`), column aliases, computed columns, subqueries, date functions (`DATE`, `DATEDIFF`, `DATE_FORMAT`, `DAYOFWEEK`, `MONTH`/`YEAR`), and aggregate functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `ROUND`)
 
 ## Notes
 This is a living repository — queries will be added, revised, and expanded as I move through each module of the bootcamp.
